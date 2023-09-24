@@ -11682,3 +11682,19 @@ pre .code {
   display: block;
   margin-top: 10px;
 }
+
+
+/* Center the video container */
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh; /* Set the height to 50% of the viewport height */
+}
+
+/* Style the video player */
+.video-container video {
+    max-width: 50vw; /* Set the width to 50% of the viewport width */
+    height: auto;
+}
+
